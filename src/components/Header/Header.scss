@@ -1,0 +1,51 @@
+.Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  &__filters button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+
+    &:hover {
+      font-weight: 600;
+      text-shadow: 0 0 3px #eee;
+    }
+  }
+
+  &__search input {
+    min-width: 248px;
+    height: 70px;
+    padding: 0 35px;
+
+    background: #333348;
+    border-radius: 40px;
+    border: none;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+
+    &:focus {
+      outline: 1px solid #eee;
+    }
+
+    &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: #eee;
+      opacity: 1; /* Firefox */
+    }
+
+    &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+      color: #eee;
+    }
+
+    &::-ms-input-placeholder { /* Microsoft Edge */
+      color: #eee;
+    }
+  }
+}
