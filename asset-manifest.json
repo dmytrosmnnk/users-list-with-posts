@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/users-list-with-posts/static/css/main.962dea87.css",
+    "main.js": "/users-list-with-posts/static/js/main.bfdb23c4.js",
+    "index.html": "/users-list-with-posts/index.html",
+    "main.962dea87.css.map": "/users-list-with-posts/static/css/main.962dea87.css.map",
+    "main.bfdb23c4.js.map": "/users-list-with-posts/static/js/main.bfdb23c4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.962dea87.css",
+    "static/js/main.bfdb23c4.js"
+  ]
+}
